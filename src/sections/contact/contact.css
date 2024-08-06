@@ -1,0 +1,30 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container p{
+    margin-bottom: 1rem;
+}
+
+.contact__icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact__icons a{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    display: grid;
+    place-items: center;
+    border-radius: var(--border-radius-3);
+}
+
+.contact__icons a:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
