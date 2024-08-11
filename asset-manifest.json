@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Shobhit-portfolio/static/css/main.c7c5c967.css",
+    "main.js": "/Shobhit-portfolio/static/js/main.6a7db19f.js",
+    "static/media/about3.png": "/Shobhit-portfolio/static/media/about3.dc4c29365677e3a31d25.png",
+    "static/media/blink.png": "/Shobhit-portfolio/static/media/blink.dbc0814bf580cf0865e6.png",
+    "static/media/floqlor.png": "/Shobhit-portfolio/static/media/floqlor.33823ab7090bca0954c2.png",
+    "static/media/meownga.png": "/Shobhit-portfolio/static/media/meownga.700ce6192c8ee6a3c01a.png",
+    "static/media/finalResume.pdf": "/Shobhit-portfolio/static/media/finalResume.fd7c468b14f6900c285c.pdf",
+    "static/media/profile.jpeg": "/Shobhit-portfolio/static/media/profile.1177a106f8666086a91d.jpeg",
+    "static/media/blackcoffer.png": "/Shobhit-portfolio/static/media/blackcoffer.6345cfa2791cb257db22.png",
+    "static/media/insta.png": "/Shobhit-portfolio/static/media/insta.96dddbb3e757c191e220.png",
+    "static/media/chat.png": "/Shobhit-portfolio/static/media/chat.05e5915393fb6faf88e2.png",
+    "static/media/heart.jpg": "/Shobhit-portfolio/static/media/heart.1d6409a6eb033e064666.jpg",
+    "index.html": "/Shobhit-portfolio/index.html",
+    "main.c7c5c967.css.map": "/Shobhit-portfolio/static/css/main.c7c5c967.css.map",
+    "main.6a7db19f.js.map": "/Shobhit-portfolio/static/js/main.6a7db19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7c5c967.css",
+    "static/js/main.6a7db19f.js"
+  ]
+}
