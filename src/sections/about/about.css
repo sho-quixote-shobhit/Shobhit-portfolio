@@ -28,15 +28,16 @@
     border-radius: 0.5rem; 
     transition: var(--transition);
 }
-.about__portrait:hover{
+/* .about__portrait:hover{
     border-width: 0;
-}
+} */
 
 .about__cards{
     margin: 3rem 0 1.5rem;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap: 1.5rem;
+    cursor: pointer;
 }
 
 .card.about__card{

@@ -5,6 +5,10 @@ import { HiDownload } from 'react-icons/hi'
 import data from './data'
 import Card from '../../components/Card/Card'
 
+const handleLink = (link) => {
+    window.open(link)
+}
+
 const About = () => {
     return (
         <section id="about">
@@ -19,7 +23,7 @@ const About = () => {
                     <div className="about__cards">
                         {
                             data.map(item => (
-                                <Card key={item.id} className='about__card'>
+                                <Card key={item.id} className='about__card' onClick={() => {handleLink(item.link)}}>
                                     <span className='about__card-icon'>{item.icon}</span>
                                     <h5>{item.title}</h5>
                                     <small>{item.desc}</small>
@@ -28,10 +32,10 @@ const About = () => {
                         }
                     </div>
                     <p>
-                        Building projects my clients love have always been my passion. I'm doing web development for over 2 years now and I'm always motivated to do more!
+                        Building real world projects have always been my passion. I'm doing web development for over 2 years now and I'm always motivated to do more!
                     </p>
                     <p>
-                        Hi, my name is Shobhit Singh from Gurgoan, Haryana. I'm a full stack web developer with a Bachelors degree in Computer Science and Engineering. My top priority is to give you top level industry level design and all the functionality that you need to operate smoothly online. Get in touvh today with the details of your project and let's get started!!
+                        Hi, my name is Shobhit Singh from Gurgoan, Haryana. I'm a full stack web developer with a Bachelors degree in Computer Science and Engineering from YMCA, Faridabad. My top priority is to give you top level industry level design and all the functionality that you need to operate smoothly online. Get in touch today with the details of your project and let's get started!!
                     </p>
                     <a href={CV} download={true} className='btn primary'>Download CV <HiDownload /> </a>
                 </div>

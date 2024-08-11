@@ -11,8 +11,7 @@ const Header = () => {
                 </div>
                 <h3>Shobhit Singh</h3>
                 <p>
-                    Hi, do you know who i am. I am a Good Boy and WWW stands for World Wide WHandsome.
-                    I am a Software developer , so send me the details of your project to build a modern, highly responsice application today!!
+                My name is Shobhit Singh, and I have a strong passion for software development. Over the past two years, I've been actively involved in web development and competitive programming, continuously honing my skills and solving complex challenges.
                 </p>
                 <div className='header__cta'>
                     <a href="#contact" className='btn primary'>Let's Talk</a>
